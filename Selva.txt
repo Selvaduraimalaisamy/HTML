@@ -1,0 +1,123 @@
+<html>
+<head>
+<center>
+<h1>STATE BANK OF INDIA</h1>
+</center>
+	 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"> </script>
+		 
+	<script type="text/javascript" language="javascript">
+
+		 $(document).ready(function() {
+
+
+			$("#submit").click(function () {
+				var op = "ACCOUNT NUMBER=" + $("#ad").val()+", HOLDER NAME =" + $("#hm").val()+", AGE =" + $("#age").val()+", DATE OF BIRTH =" + $("#dob").val()+", BRANCH =" + $("#br").val();
+				var op1 = "ACCOUNT NUMBER=" + $("#ad1").val()+", HOLDER NAME =" + $("#hm1").val()+", AGE =" + $("#age1").val()+", DATE OF BIRTH =" + $("#dob1").val()+", BRANCH =" + $("#br1").val();
+                                var op2 = "ACCOUNT NUMBER=" + $("#ad2").val()+", HOLDER NAME =" + $("#hm2").val()+", AGE =" + $("#age2").val()+", DATE OF BIRTH =" + $("#dob2").val()+", BRANCH =" + $("#br2").val();
+                                var op3 = "ACCOUNT NUMBER=" + $("#ad3").val()+", HOLDER NAME =" + $("#hm3").val()+", AGE =" + $("#age3").val()+", DATE OF BIRTH =" + $("#dob3").val()+", BRANCH =" + $("#br3").val();
+                                var op4 = "ACCOUNT NUMBER=" + $("#ad4").val()+", HOLDER NAME =" + $("#hm4").val()+", AGE =" + $("#age4").val()+", DATE OF BIRTH =" + $("#dob4").val()+", BRANCH =" + $("#br4").val();
+                                alert(op);
+                                alert (op1);
+                                alert (op2);
+                                alert (op3);
+                                alert (op4);
+                                
+			});
+		 
+
+			$("#reset").click(function () {
+				$("#ad").val('');
+				$("#hm").val('');
+				$("#age").val('');
+				$("#dob").val('');
+                                $("#br").val('');
+                                $("#ad1").val('');
+				$("#hm1").val('');
+				$("#age1").val('');
+				$("#dob1").val('');
+                                $("#br1").val('');
+                                $("#ad2").val('');
+				$("#hm2").val('');
+				$("#age2").val('');
+				$("#dob2").val('');
+                                $("#br2").val('');
+                                $("#ad3").val('');
+				$("#hm3").val('');
+				$("#age3").val('');
+				$("#dob3").val('');
+                                $("#br3").val('');
+                                $("#ad4").val('');
+				$("#hm4").val('');
+				$("#age4").val('');
+				$("#dob4").val('');
+                                $("#br4").val('');
+                          
+			});
+
+		 });
+function myfunction() {
+		alert('Hi');
+	}
+	</script>
+</head>
+<body>
+<center>
+<table id="selvaTable" border="5" >
+    <tr>
+       <td>ACCOUNT NUMBER </td>
+       <td>HOLDER NAME</td>
+       <td>AGE</td>
+       <td>DATE OF BIRTH</td>
+       <td>BRANCH</td>
+     </tr> 
+        <td><input type="text" id="ad"> </input></td>
+        <td><input type="text" id="hm"> </input></td>
+        <td><input type="text" id="age"></input></td>
+        <td><input type="date" id="dob"></input></td>
+        <td><input type="text" id="br"></input></td>
+     </tr>
+
+     </tr> 
+        <td><input type="text" id="ad1"> </input></td>
+        <td><input type="text" id="hm1"> </input></td>
+        <td><input type="text" id="age1"></input></td>
+        <td><input type="date" id="dob1"></input></td>
+        <td><input type="text" id="br1"></input></td>
+     </tr>
+    
+     </tr> 
+        <td><input type="text" id="ad2"> </input></td>
+        <td><input type="text" id="hm2"> </input></td>
+        <td><input type="text" id="age2"></input></td>
+        <td><input type="date" id="dob2"></input></td>
+        <td><input type="text" id="br2"></input></td>
+     </tr>
+     
+     </tr> 
+        <td><input type="text" id="ad3"> </input></td>
+        <td><input type="text" id="hm3"> </input></td>
+        <td><input type="text" id="age3"></input></td>
+        <td><input type="date" id="dob3"></input></td>
+        <td><input type="text" id="br3"></input></td>
+     </tr>
+     
+     </tr> 
+        <td><input type="text" id="ad4"> </input></td>
+        <td><input type="text" id="hm4"> </input></td>
+        <td><input type="text" id="age4"></input></td>
+        <td><input type="date" id="dob4"></input></td>
+        <td><input type="text" id="br4"></input></td>
+     </tr>
+</table>
+</center>
+     <br><br>
+ <center>
+     <input type="button" id="reset" lable="reset" value="Reset" />
+     <input type="button" id="submit" lable="submit" value="Submit" />
+    
+  </center>   
+
+
+</html>
+    
+    
